@@ -10,6 +10,7 @@
 		357D63FF64A18A8E7EAE1A98 /* Pods_MPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BAA2D0C1798A1D3B780A8F /* Pods_MPPUITests.framework */; };
 		C08939045D89712E84DE39BE /* Pods_MPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22A29F73912B450EDFF3FC1 /* Pods_MPPTests.framework */; };
 		D27E39D9D56AD50657FAEBB7 /* Pods_MPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EAE133B79B1F5D98304312 /* Pods_MPP.framework */; };
+		DE092E3C216589DF0047A5C4 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = DE092E3B216589DF0047A5C4 /* schema.json */; };
 		DE838A54215B22A500C35A42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838A53215B22A500C35A42 /* AppDelegate.swift */; };
 		DE838A56215B22A500C35A42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838A55215B22A500C35A42 /* ViewController.swift */; };
 		DE838A59215B22A500C35A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE838A57215B22A500C35A42 /* Main.storyboard */; };
@@ -17,7 +18,6 @@
 		DE838A5E215B22A600C35A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE838A5C215B22A600C35A42 /* LaunchScreen.storyboard */; };
 		DE838A69215B22A600C35A42 /* MPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838A68215B22A600C35A42 /* MPPTests.swift */; };
 		DE838A74215B22A600C35A42 /* MPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838A73215B22A600C35A42 /* MPPUITests.swift */; };
-		DE838A82215B22EC00C35A42 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = DE838A81215B22EC00C35A42 /* schema.json */; };
 		DE838A85215B234300C35A42 /* RegisterViewController.graphql in Resources */ = {isa = PBXBuildFile; fileRef = DE838A84215B234300C35A42 /* RegisterViewController.graphql */; };
 		DEC80018216563D100488FAB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC80017216563D100488FAB /* API.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +47,7 @@
 		6BE31042F5F41935E6D6DAC1 /* Pods-MPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MPPTests/Pods-MPPTests.release.xcconfig"; sourceTree = "<group>"; };
 		B22A29F73912B450EDFF3FC1 /* Pods_MPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BAA2D0C1798A1D3B780A8F /* Pods_MPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE092E3B216589DF0047A5C4 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		DE838A50215B22A500C35A42 /* MPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE838A53215B22A500C35A42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE838A55215B22A500C35A42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		DE838A6F215B22A600C35A42 /* MPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE838A73215B22A600C35A42 /* MPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPPUITests.swift; sourceTree = "<group>"; };
 		DE838A75215B22A600C35A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE838A81215B22EC00C35A42 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = schema.json; path = "../../ConferencePlanner-starter/ConferencePlanner/schema.json"; sourceTree = "<group>"; };
 		DE838A84215B234300C35A42 /* RegisterViewController.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RegisterViewController.graphql; sourceTree = "<group>"; };
 		DEC80017216563D100488FAB /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		E287FFF753D3A620BE000496 /* Pods-MPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MPPUITests/Pods-MPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,9 +133,9 @@
 		DE838A52215B22A500C35A42 /* MPP */ = {
 			isa = PBXGroup;
 			children = (
+				DE092E3B216589DF0047A5C4 /* schema.json */,
 				DEC80017216563D100488FAB /* API.swift */,
 				DE838A84215B234300C35A42 /* RegisterViewController.graphql */,
-				DE838A81215B22EC00C35A42 /* schema.json */,
 				DE838A53215B22A500C35A42 /* AppDelegate.swift */,
 				DE838A55215B22A500C35A42 /* ViewController.swift */,
 				DE838A57215B22A500C35A42 /* Main.storyboard */,
@@ -283,8 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE838A82215B22EC00C35A42 /* schema.json in Resources */,
 				DE838A5E215B22A600C35A42 /* LaunchScreen.storyboard in Resources */,
+				DE092E3C216589DF0047A5C4 /* schema.json in Resources */,
 				DE838A85215B234300C35A42 /* RegisterViewController.graphql in Resources */,
 				DE838A5B215B22A600C35A42 /* Assets.xcassets in Resources */,
 				DE838A59215B22A500C35A42 /* Main.storyboard in Resources */,
