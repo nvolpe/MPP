@@ -1,0 +1,10 @@
+
+query PostsForAuthor {
+author(id: 1) {
+firstName
+posts {
+title
+votes
+}
+}
+}
